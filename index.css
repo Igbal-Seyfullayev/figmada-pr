@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body{ 
+    position: relative;
+    width: 1440px;
+    height: 1046px;
+    background: #FFFFFF;
+    padding: 91px 150px 173px 124px; 
+    font-family: 'Roboto';
+}
+
+.title{
+    width: 365px;
+    height: 93px;
+    margin-bottom: 18px;
+}
+
+h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.first-child-conteiner{
+    display: flex;
+}
+
+.main-text{
+    width: 662px;
+    height: 374px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 94px;
+    margin-right: 0;
+}
+
+.big-foto{
+width: 314px;
+height: 315px;
+position: relative;
+}
+
+.big-foto-first{
+  position: absolute;
+  margin-left: 190px;
+  margin-right: 150px;
+}
+.big-foto-second{
+    margin-top: 280px;
+    margin-left: 164px;
+    margin-right: 124px;
+}
+
+.second-child-conteiner{
+    display: flex;
+}
+
+.second-child-conteiner-1{
+   position: relative;
+   margin-right: 132px;
+   width: 232px;
+   height: 203px;
+}
+
+.mini-foto-1{
+  position: absolute;
+  margin-right: 132px;
+}
+
+.mini-foto-2{
+width: 189px;
+height: 32px;
+margin-top: 190px;
+margin-left: 40px;
+background: #EFEFEF;
+
+}
+
+.second-child-conteiner-2, .second-child-conteiner-3, .second-child-conteiner-4{
+    margin-top: 50px;
+}
+
+.second-child-conteiner-2-title-1, .second-child-conteiner-2-title-2, .second-child-conteiner-2-title-3{
+width: 150px;
+height: 39px;
+font-weight: 700;
+font-size: 25px;
+line-height: 32px;
+color: #000000;
+margin-right: 95px;
+margin-bottom: 0;
+}
+
+.second-child-conteiner-2-title-1-content, .second-child-conteiner-2-title-2-content, .second-child-conteiner-2-title-3-content{
+margin-top: 0;
+width: 150px;
+height: 39px;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #000000;
+margin-right: 95px;
+}
+
+
+
+
+    @media (max-width: 834px) {
+
+        body{ 
+            width: 834px;
+            height: 633px;
+            padding: 56px 86px 180px 72px;
+        }
+
+        .title{
+            width: 211px;
+            height: 53px;
+        }
+        
+        h1{
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+            color: #000000;
+        }
+        
+
+        .first-child-conteiner{
+            display: flex;
+            height: 230px;
+           
+        }
+        
+        .main-text{
+            width: 383px;
+            height: 216px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+            margin-bottom: 56px;
+            margin-right: 110px;
+        }
+        
+        .big-foto{
+        margin-left: 0;
+        
+        }
+        
+        .big-foto-first{
+           
+          margin-left: 0;
+          width: 181px;
+          height: 182px;
+        }
+
+        .big-foto-second{
+            display: none;
+        }
+
+        .second-child-conteiner{
+           margin-top: 0;
+            display: flex;
+        }
+
+        .second-child-conteiner-1{
+            display: none;
+        }
+        
+        .second-child-conteiner-2-title-1, .second-child-conteiner-2-title-2, .second-child-conteiner-2-title-3{
+            width: 86px;
+            height: 22px;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 19px;
+            color: #000000;
+            margin-right: 55px;
+            margin-bottom: 0;
+            margin-top: 0;
+            }
+            
+            .second-child-conteiner-2-title-1-content, .second-child-conteiner-2-title-2-content, .second-child-conteiner-2-title-3-content{
+            margin-top: 0;
+            width: 95px;
+            height: 22px;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 14px;
+            color: #000000; 
+            margin-right: 55px;
+            margin-top: 0;
+            }
+
+    }
+
+
+
+
+
+
+ 
+    @media (max-width: 375px) {
+
+        body{
+            width: 375;
+            height: 776px;
+            padding: 56px 31px 124px 36px;
+        }   
+
+        .title{
+            width: 170px;
+            height: 43px;
+            margin-bottom: 8px; 
+        }
+        
+        h1{
+            font-family: 'Roboto Slab'; 
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 26px;
+            color: #000000;
+        }
+
+        .first-child-conteiner{
+            flex-direction: column; 
+            margin-bottom: 0;
+        } 
+
+        .main-text{
+            width: 308px; 
+            height: 217px;
+            font-weight: 400;
+            font-size: 12px; 
+            line-height: 18px;
+            margin-bottom: 13px;
+        }
+
+        .big-foto{
+            width: 172px;
+            height: 162px;
+            margin-left: 0;
+        
+        }
+
+        .big-foto-first{
+            width: 170px;
+            height: 160px;
+            margin-left: 101px;
+            margin-right: 103px;
+            
+            }
+
+            
+            .big-foto-second{
+                display: none;
+            }
+          
+      
+        .second-child-conteiner{
+           
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 140px;
+        }
+
+        .second-child-conteiner-1{
+            display: none;
+        }
+       
+
+        .second-child-conteiner-2-title-1, .second-child-conteiner-2-title-2, .second-child-conteiner-2-title-3{
+            width: 69px;
+            height: 18px;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 16px;
+            color: #000000;
+            margin-right: 49px;
+            margin-bottom: 0;
+            margin-top: 0;
+            }
+            
+            .second-child-conteiner-2-title-1-content, .second-child-conteiner-2-title-2-content, .second-child-conteiner-2-title-3-content{
+            margin-top: 0;
+            width: 86px;
+            height: 18px;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 13px;
+            color: #000000; 
+            margin-right: 33px;
+            margin-bottom: 0;
+            }
+    }
